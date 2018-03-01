@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "jasmine": true
+  },
+  "rules": {
+    "flowtype/define-flow-type": 2,
+    "no-console": 0
+  }
+}
